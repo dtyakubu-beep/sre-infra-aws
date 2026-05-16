@@ -4,6 +4,6 @@ terraform {
     key            = "infra/terraform.tfstate"
     region         = "eu-west-2"
     encrypt        = true
-    dynamodb_table = "sre-tfstate-lock"
+    dynamodb_table = "sre-portfolio-tfstate-lock"
   }
 }
